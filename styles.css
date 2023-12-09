@@ -1,40 +1,29 @@
 body {
-    font-family: 'Verdana', sans-serif;
-    margin: 0;
+    font-family: Arial, sans-serif;
+    margin: 20px;
     padding: 0;
-    background-color: #e6e6e6;
-    text-align: center;
-}
-
-header {
-    background-color: #1a1a1a;
-    color: #fff;
-    padding: 15px;
+    background-color: #f4f4f4;
 }
 
 h1 {
-    color: #fff; /* Change the color of h1 to white */
+    color: #333;
 }
-p{
-    color:black
+
+p {
+    color: #666;
 }
+
 a {
     display: inline-block;
-    padding: 12px 25px;
+    padding: 10px 20px;
+    margin-top: 10px;
     background-color: #3498db;
     color: #fff;
     text-decoration: none;
-    border-radius: 8px;
-    font-size: 20px;
-    margin-top: 25px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 a:hover {
     background-color: #2980b9;
-}
-
-.warning {
-    color: #ff3333;
-    font-weight: bold;
-    margin-top: 25px;
 }
